@@ -1,10 +1,10 @@
 require_relative '../conversions.rb'
 
 describe "conversions" do
-  describe '#grams_to_ounces' do
+  describe '#ounces_to_grams' do
     it 'given zero, returns 0.0' do
-      ounces = grams_to_ounces(0)
-      expect(ounces).to eq(0.0)
+      grams = ounces_to_grams(0)
+      expect(grams).to eq(0.0)
     end
   end
 end
